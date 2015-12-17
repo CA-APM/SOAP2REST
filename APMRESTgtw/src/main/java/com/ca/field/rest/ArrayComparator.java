@@ -1,4 +1,4 @@
-package com.ca.field.test;
+package com.ca.field.rest;
 
 import java.util.Comparator;
 

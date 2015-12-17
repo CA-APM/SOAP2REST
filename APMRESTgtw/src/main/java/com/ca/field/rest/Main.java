@@ -1,4 +1,4 @@
-package com.ca.field.test;
+package com.ca.field.rest;
 
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
@@ -32,8 +32,8 @@ public class Main {
      */
     public static HttpServer startServer() {
         // create a resource config that scans for JAX-RS resources and providers
-        // in com.ca.field.test package
-        final ResourceConfig rc = new ResourceConfig().packages("com.ca.field.test");
+        // in com.ca.field.rest package
+        final ResourceConfig rc = new ResourceConfig().packages("com.ca.field.rest");
         
          HttpServer server = GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI_part1+port+BASE_URI_part2), rc);
 

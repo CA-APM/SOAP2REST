@@ -1,4 +1,4 @@
-package com.ca.field.test;
+package com.ca.field.rest;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
